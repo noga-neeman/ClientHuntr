@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <title>ClientHuntr</title>
+    <!-- BOOTSTRAP CORE STYLE  -->
+    <link href="static/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONT AWESOME ICONS  -->
+    <link href="static/css/font-awesome.css" rel="stylesheet" />
+    <!-- CUSTOM STYLE  -->
+    <link href="static/css/style.css" rel="stylesheet" />
+     <!-- HTML5 Shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <strong></strong><a href="mailto:noga.noga@gmail.com">noga.noga@gmail.com</a>
+                    &nbsp;&nbsp;
+                    <strong></strong><a href="https://www.linkedin.com/in/noganeeman">linkedin.com/in/noganeeman</a>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!-- HEADER END-->
+    <div class="navbar navbar-inverse set-radius-zero">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/input">
+                    <h1>ClientHuntr</h1>    
+                </a>
+           </div>
+            <div class="left-div">
+                <div class="user-settings-wrapper">
+                    <ul class="nav">
+                        <li class="dropdown">                           
+                            <div class="dropdown-menu dropdown-settings">
+                           </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- LOGO HEADER END-->
+    <section class="menu-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="navbar-collapse collapse ">
+                        <ul id="menu-top" class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="/input">Home</a></li>
+                            <li class="active"><a href="/about">About</a></li>
+                            <li class="active"><a href="https://docs.google.com/presentation/d/1EFwTFYgp2FqW5qwv_luDv45W4YB1QRp970kmLzpF0Zc/edit?usp=sharing">Slides</a></li>
+
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>    
+
+  <div class="container">
+
+    <div class="starter-template">
+        <h2>Identifying target vs. hard to reach customers</h2>
+        <p class="lead">When would you like to schedule your sale?</p>
+    </div>
+  </div>  
+
+    <div class = "container">
+
+    <form  action="/output" method="GET">
+
+      <div class="form-group">
+        <label for="WEEK">Week of the year:</label>
+        <select week="WEEK" name="WEEK">
+          <option value="1">Jan. 1</option>
+          <option value="4">Jan. 22</option>       
+          <option value="5">Jan. 29</option>  
+          <option value="6">Feb. 5</option>
+          <option value="17">Apr 23</option>   
+          <option value="18">Apr. 30</option>    
+          <option value="34">Aug. 20</option>       
+          <option value="38">Sep. 17</option>  
+          <option value="44">Oct. 29</option>
+          <option value="47">Nov. 19</option>
+          <option value="51">Dec. 17</option>
+        </select>
+      </div>
+
+    </div>
+
+ <div class="container">
+
+    <div class="starter-template">
+        <p class="lead">Which item would you like to put on sale?</p>
+    </div>
+  </div>
+
+    <div class = "container">
+
+    <form  action="/output" method="GET">
+
+      <div class="form-group">
+        <label for="ITEM">Item number:</label>
+        <select item="ITEM" name="ITEM">
+          <option value="1101674">1101674</option>
+          <option value="1133347">1133347</option>  
+          <option value="1134816">1134816</option>  
+          <option value="1779065">1779065</option>
+          <option value="2030211">2030211</option>                
+        </select>
+      </div>
+
+    </div>
+  </div>
+
+  <div class = "container">
+    
+    <button type= "submit" class="btn btn-default btn-md">Submit</button>
+
+  </div>
+    
+    </form>      
+
+    
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+
+  </div> <!-- /.container-->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
