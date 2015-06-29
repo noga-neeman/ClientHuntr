@@ -218,6 +218,19 @@ plt.hist(prop,bins=50,range=(0,10))
 plt.xlabel('Response score')
 plt.ylabel('Frequency')
 
+#sales trends for a few members of each cluster
+for clust in main_cluster_number:
+    customer_loc=cluster_dictionary.get(clust)[:10]
+    plt.figure()
+    sns.set(font_scale=2)
+    for i in customer_loc:     
+        plt.plot(range(1,53),sales_series_cust2.iloc[:,i])
+        plt.xlim(0,53)
+        plt.xlabel('Week')
+        plt.ylabel('Sales (USD)')
+        plt.title('Weekly sales for cluster number '+ str(clust))
+        
+    
 
     
     

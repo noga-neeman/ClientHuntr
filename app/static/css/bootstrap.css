@@ -6574,4 +6574,15 @@ a:hover
 { text-decoration: none; 
 color: #9d9d9d
 }
+
+.lead a, a:hover
+{ outline: none;
+text-decoration: none;
+color: #333;
+}
+
+.lead a:hover
+{ text-decoration: none; 
+color: #9d9d9d
+}
 /*# sourceMappingURL=bootstrap.css.map */
